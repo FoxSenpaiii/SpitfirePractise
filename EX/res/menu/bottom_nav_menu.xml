@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/button_icon_feed"
+        android:icon="@drawable/icon_feed"/>
+    <item
+        android:id="@+id/button_icon_search"
+        android:icon="@drawable/icon_search"/>
+    <item
+        android:id="@+id/button_icon_favorite"
+        android:icon="@drawable/icon_favorite"/>
+    <item
+        android:id="@+id/button_icon_account"
+        android:icon="@drawable/icon_account"/>
+</menu>

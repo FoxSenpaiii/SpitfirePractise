@@ -2,14 +2,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/button_icon_feed"
-        android:icon="@drawable/icon_feed"/>
+        android:icon="@drawable/icon_feed"
+        android:title="Feed"/>
     <item
         android:id="@+id/button_icon_search"
-        android:icon="@drawable/icon_search"/>
+        android:icon="@drawable/icon_search"
+        android:title="Search"/>
     <item
         android:id="@+id/button_icon_favorite"
-        android:icon="@drawable/icon_favorite"/>
+        android:icon="@drawable/icon_favorite"
+        android:title="Favorite"/>
     <item
         android:id="@+id/button_icon_account"
-        android:icon="@drawable/icon_account"/>
+        android:icon="@drawable/icon_account"
+        android:title="Account"/>
 </menu>

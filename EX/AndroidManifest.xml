@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FamiliaRecipe">
-        <activity android:name=".launch_screen"
+        <activity android:name=".activity_sign_in"></activity>
+        <activity
+            android:name=".launch_screen"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,8 +21,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".articles">
-        </activity>
+        <activity android:name=".main_screens" />
+        <activity android:name=".not_registered" />
         <activity android:name=".network_error" />
     </application>
 

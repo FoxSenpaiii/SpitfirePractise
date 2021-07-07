@@ -31,7 +31,7 @@ public class launch_screen extends AppCompatActivity {
         if (connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).getState() == NetworkInfo.State.CONNECTED ||
                 connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI).getState() == NetworkInfo.State.CONNECTED) {
             //Toast.makeText(getApplicationContext(),"Internet", Toast.LENGTH_SHORT).show();
-            i = new Intent(this, articles.class);
+            i = new Intent(this, main_screens.class);
             startActivity(i);
             finish();
         }
